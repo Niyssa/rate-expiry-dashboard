@@ -1,0 +1,16 @@
+# Sensitive config — contains real SMTP credentials, never commit
+config/mail.php
+
+# Uploads folder (user-uploaded CSVs)
+uploads/
+*.csv
+
+# Excel source data
+*.xlsx
+
+# Editor / OS junk
+.history/
+.lh/
+.vscode/
+*.DS_Store
+Thumbs.db
